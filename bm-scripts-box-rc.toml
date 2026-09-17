@@ -2,7 +2,7 @@
 id = "05dbedbd-b599-4bb6-93d0-103cc7e19db9"              
 name = "系统静音"                                    
 desc = "Windows系统静音脚本、配合不忙脚本盒子可实现快速静音和定时静音"                                  
-version = "0.0.1"                                        
+version = "1.0.0"                                        
 icon = "jingying.png"   
 
 [bmscriptsbox.runtime]
@@ -19,7 +19,9 @@ targets = ["background"]
 
 [bmscriptsbox.triggers.shortcut]                          
 enabled = true                                  
-input_type = ""                                 
+
+[bmscriptsbox.schedule]
+enabled = true                              
 
 
 
